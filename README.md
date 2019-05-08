@@ -31,9 +31,9 @@ else:<br>
 可在posswords字典添加更多的账号信息,该文件保存为pw.py(名字自行更改)<br>
 然后在任何path环境变量下的路径比如在桌面,建立pw名字的文本文档(名字可改),写入以下代码:<br>
 
-@python C:\Users\wrath\Desktop\个人项目\pw.py %*<br>
-@pause<br>
-
+```@python C:\Users\wrath\Desktop\个人项目\pw.py %*<br>
+```@pause<br>
+```
 路径是自己保存的py文件路径,然后另存为后缀bat的可执行文件<br>
 (如果路径含有中文一定编码,另存为的时候编码选择ANSI,否则会乱码)<br>
 然后就可以使用了<br>
