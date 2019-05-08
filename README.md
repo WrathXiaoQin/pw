@@ -7,25 +7,27 @@ Interesting convenient password paste tools
 3.在当今拥有这么多账号密码忘记是经常的事情(虽然有强大的密码找回),这工具在这时候便能派上用场<br>
 
 ## 脚本:
-import sys<br>
-import pyperclip<br>
+```python
+import sys
+import pyperclip
 passwords={
             '数据库':'shangde***',
             '万能':'12345678',
             '鹰眼':'SunLands***'
             }
 
-if len(sys.argv)<2:<br>
-    print("请使用以下方式: 'python aa.py [账号]' --输入后将会获取密码到剪切板")<br>
-    sys.exit()<br>
+if len(sys.argv)<2:
+    print("请使用以下方式: 'python aa.py [账号]' --输入后将会获取密码到剪切板")
+    sys.exit()
     
-account=sys.argv[1]<br>
+account=sys.argv[1]
 
-if account in passwords:<br>
-    pyperclip.copy(passwords[account])<br>
-    print('已经复制当前账号密码到剪切板')<br>
-else:<br>
-    print('没有保存当前账号密码信息')<br>
+if account in passwords:
+    pyperclip.copy(passwords[account])
+    print('已经复制当前账号密码到剪切板')
+else:
+    print('没有保存当前账号密码信息')
+ ```
 
 ## 脚本配置:
 可在posswords字典添加更多的账号信息,该文件保存为pw.py(名字自行更改)<br>
