@@ -33,8 +33,6 @@ else:<br>
 
 ```
 @python C:\Users\wrath\Desktop\个人项目\pw.py %*<br>
-```
-```
 @pause<br>
 ```
 路径是自己保存的py文件路径,然后另存为后缀bat的可执行文件<br>
