@@ -3,9 +3,9 @@
 import sys
 import pyperclip
 passwords={
-            '数据库':'shangde2018',
+            '数据库':'shangde***',
             '万能':'12345678',
-            '鹰眼':'SunLands7109'
+            '鹰眼':'SunLands***'
             }
 
 if len(sys.argv)<2:
